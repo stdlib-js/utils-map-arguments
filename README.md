@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import mapArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-arguments@esm/index.mjs';
+import mapArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-arguments@v0.1.0-esm/index.mjs';
 ```
 
 #### mapArguments( fcn, clbk\[, thisArg] )
@@ -139,7 +139,7 @@ var out = bar( 1, 2 );
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add@esm/index.mjs';
 import filterArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-filter-arguments@esm/index.mjs';
-import mapArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-arguments@esm/index.mjs';
+import mapArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-arguments@v0.1.0-esm/index.mjs';
 
 function fill( i ) {
     return i;
