@@ -2,6 +2,80 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-10-14)
+
+<section class="features">
+
+### Features
+
+-   [`b74a08a`](https://github.com/stdlib-js/stdlib/commit/b74a08ae1dfc859ac8b9704af27e3c3399ad2da5) - improve type declarations for `utils/map-arguments` [(#2050)](https://github.com/stdlib-js/stdlib/pull/2050)
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`b74a08a`](https://github.com/stdlib-js/stdlib/commit/b74a08ae1dfc859ac8b9704af27e3c3399ad2da5): function signature and return type now more strictly typed
+
+    -   The mapArguments function now uses generic types instead of 'Function', and its
+        return type depends on thisArg presence. 
+        Users should review and update their usage of mapArguments, particularly:
+        -   Ensure provided functions match the new, stricter type requirements
+        -   Update any type assertions or checks where mapArguments is used
+        -   Pay special attention to contexts where this binding is significant
+
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#1087](https://github.com/stdlib-js/stdlib/issues/1087)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`b74a08a`](https://github.com/stdlib-js/stdlib/commit/b74a08ae1dfc859ac8b9704af27e3c3399ad2da5) - **feat:** improve type declarations for `utils/map-arguments` [(#2050)](https://github.com/stdlib-js/stdlib/pull/2050) _(by Prajwal Kulkarni, Philipp Burckhardt, Prajwal Kulkarni)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Philipp Burckhardt
+-   Prajwal Kulkarni
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-27)
