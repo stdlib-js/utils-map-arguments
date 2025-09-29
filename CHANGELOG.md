@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-25)
+## Unreleased (2025-09-29)
 
 <section class="features">
 
@@ -51,6 +51,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`b7c2031`](https://github.com/stdlib-js/stdlib/commit/b7c20312491bdcf54ffc681e5fe489b9ba3d059c) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
 -   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`836170d`](https://github.com/stdlib-js/stdlib/commit/836170decec14309639deb41ae3a3c22256d68af) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`b74a08a`](https://github.com/stdlib-js/stdlib/commit/b74a08ae1dfc859ac8b9704af27e3c3399ad2da5) - **feat:** improve type declarations for `utils/map-arguments` [(#2050)](https://github.com/stdlib-js/stdlib/pull/2050) _(by Prajwal Kulkarni, Philipp Burckhardt, Prajwal Kulkarni)_
