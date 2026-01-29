@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import mapArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-arguments@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-map-arguments/tags). For example,
+
+```javascript
 import mapArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-arguments@v0.3.0-esm/index.mjs';
 ```
 
@@ -139,7 +144,7 @@ var out = bar( 1, 2 );
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add@esm/index.mjs';
 import filterArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-filter-arguments@esm/index.mjs';
-import mapArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-arguments@v0.3.0-esm/index.mjs';
+import mapArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-arguments@esm/index.mjs';
 
 function fill( i ) {
     return i;
