@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import mapArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-arguments@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-map-arguments/tags). For example,
+
+```javascript
 import mapArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-arguments@v0.3.1-deno/mod.js';
 ```
 
@@ -134,7 +139,7 @@ var out = bar( 1, 2 );
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add@deno/mod.js';
 import filterArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-filter-arguments@deno/mod.js';
-import mapArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-arguments@v0.3.1-deno/mod.js';
+import mapArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map-arguments@deno/mod.js';
 
 function fill( i ) {
     return i;
