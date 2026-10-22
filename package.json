@@ -45,7 +45,7 @@
     "@stdlib/array-filled-by": "^0.3.1",
     "@stdlib/math-base-assert-is-nan": "^0.2.3",
     "@stdlib/number-float64-base-add": "^0.1.1",
-    "@stdlib/utils-filter-arguments": "^0.2.3",
+    "@stdlib/utils-filter-arguments": "github:stdlib-js/utils-filter-arguments#main",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
